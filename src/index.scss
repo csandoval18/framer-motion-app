@@ -1,0 +1,25 @@
+$bg: rgb(37, 39, 51);
+$p: aquamarine;
+$text: #ffffff;
+$bgt: rgba(21, 21, 22, 0.219);
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+		sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+		monospace;
+}
+
+.card {
+	height: 400px;
+	width: 300px;
+	background-color: $bgt;
+	border-radius: 15px;
+}
