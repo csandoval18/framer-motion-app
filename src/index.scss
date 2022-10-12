@@ -47,3 +47,7 @@ h4 {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
+*::selection {
+	background-color: #70a9ff;
+}

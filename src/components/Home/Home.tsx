@@ -15,6 +15,7 @@ const Home: React.FC = () => {
 				<div className='left-pane'>
 					<h1>Framer Motion Demo</h1>
 				</div>
+				<div className='right-pane'></div>
 			</motion.div>
 			<motion.div
 				initial={{ translateX: '-100%' }}

@@ -5,6 +5,8 @@ nav {
 	background-color: lighten($bg, 10%);
 	display: flex;
 	justify-content: space-between;
+	position: sticky;
+	top: 0;
 	ul {
 		display: flex;
 		li {
