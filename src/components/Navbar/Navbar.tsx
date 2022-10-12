@@ -18,6 +18,12 @@ const Navbar: React.FC = () => {
 						About Us
 					</Link>
 				</li>
+        <li>
+					<Link className='' to='/contact-us'>
+            Contact Us
+					</Link>
+        </li>
+
 			</ul>
 		</nav>
 	)

@@ -1,17 +1,23 @@
 @import '../../index.scss';
+
 nav {
-	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	background-color: lighten($bg, 10%);
+	display: flex;
+	justify-content: space-between;
 	ul {
 		display: flex;
 		li {
 			list-style: none;
 			a {
-				text-decoration: none;
 				color: $text;
+				font-size: 16px;
+				font-weight: 500;
 				padding: 1.3rem;
+				text-decoration: none;
+				& > * {
+					height: 16px;
+				}
 				&:hover {
 					color: $p;
 				}
@@ -20,8 +26,11 @@ nav {
 	}
 }
 .logo {
-	padding-left: 1rem;
-	height: 4rem;
-	width: 2.5rem;
 	color: $p;
+	height: 4rem;
+	padding-left: 1rem;
+	width: 2.5rem;
+	&:hover {
+		color: $white;
+	}
 }

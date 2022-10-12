@@ -1,13 +1,15 @@
 $bg: rgb(37, 39, 51);
 $p: aquamarine;
-$text: #ffffff;
+$text: aliceblue;
+$white: aliceblue;
 $bgt: rgba(21, 21, 22, 0.219);
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-		'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-		sans-serif;
+	// font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+	// 	'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+	// 	sans-serif;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -17,9 +19,31 @@ code {
 		monospace;
 }
 
-.card {
-	height: 400px;
-	width: 300px;
-	background-color: $bgt;
-	border-radius: 15px;
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+	color: $text;
+}
+
+h1 {
+	font-size: 5rem;
+}
+h1,
+h2,
+h3,
+h4 {
+	//   background: #6BF5FF;
+	// background: linear-gradient(to right, #6BF5FF 12%, #70A9FF 50%, #FF058A 100%);
+	background: aquamarine;
+	background: linear-gradient(
+		to right,
+		aquamarine 12%,
+		#70a9ff 50%,
+		#ff058a 100%
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }

@@ -1,5 +1,16 @@
 @import '../../index.scss';
-.hero {
-	height: 36rem;
-	background-color: darken($bg, 3%);
+.home-container {
+	min-height: 100vh;
+	.hero {
+		height: 36rem;
+		background-color: darken($bg, 3%);
+		.left-pane,
+		.right-pane {
+			align-items: center;
+			display: flex;
+			justify-content: center;
+			height: 100%;
+			width: 50%;
+		}
+	}
 }
