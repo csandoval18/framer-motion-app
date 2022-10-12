@@ -16,8 +16,11 @@ const Home: React.FC = () => {
 					<h1>Framer Motion Demo</h1>
 				</div>
 			</motion.div>
-
-			<motion.div>
+			<motion.div
+				initial={{ translateX: '-100%' }}
+				animate={{ translateX: 0 }}
+				transition={{ duration: 2 }}
+			>
 				<Card
 					title='Title Placeholder'
 					text=' 
